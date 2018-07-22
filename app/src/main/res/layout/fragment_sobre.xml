@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.SobreFragment"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="349dp"
+        android:layout_height="208dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="      O app foi criado para ajudar pessoas a criarem suas listas de compras de um jeito fácil e rápido. Como nem sempre pais, mães, ou maridos e esposas estão por perto para avisar que algo está faltando, o Aplicativo traz o recurso de compartilhamento, permitindo o compartilhamento de listas por categorias com amigos e familiares pelas redes sociais Ex: Whatsapp, Messeger e E-mail etc."
+        android:textSize="18sp"
+        android:layout_weight="0.21" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="       O Aplicativo traz um sistema inteligente de elaboração de listas de compras, permitindo a criação rápida e prática de itens e a facilidade de excluir itens antes e durante de uma ida ao supermercado. A interface agrada bastante. É moderna, bonita e com cores marcantes, sem poluir o visual. O fato de estar em português é um ponto a mais para usuários brasileiros. "
+        android:textSize="18sp"
+        android:layout_weight="0.08" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Email: douglas.developer.app@gmail.com"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_weight="0.04" />
+
+</LinearLayout>

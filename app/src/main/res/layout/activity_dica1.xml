@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="paixaoporti.com.br.listadecompras.dica1Activity"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="361dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:text="  Fazer um intervalo muito longo entre as compras"
+        android:textStyle="bold"
+        android:textSize="24dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView00"
+            android:layout_width="354dp"
+            android:layout_height="445dp"
+            android:layout_gravity="center"
+            android:text="  Quanto maior o período entre idas ao supermercado, maior o número de itens que você precisará comprar de uma vez só. Em intervalos longos, a lista precisa ser grande e abranger tudo aquilo de que você precisará, o que torna a tarefa mais complicada. Portanto, se tiver disponibilidade, programe as compras para períodos menores. “As compras semanais ajudam a repor os itens que estão faltando e você dispõe de produtos mais frescos durante a semana, além de não desperdiçar ou deixar alimentos esquecidos no armário. O ideal é ir ao supermercado pelo menos duas vezes ao mês”, recomendo."
+            android:textSize="21sp" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/voltar1id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="#66CDAA"
+        android:textColor="#ffffff"
+        android:text="Voltar"/>
+
+</LinearLayout>

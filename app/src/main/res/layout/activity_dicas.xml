@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="paixaoporti.com.br.listadecompras.DicasActivity"
+    android:orientation="vertical"
+    android:background="#FFDEAD"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/dica11id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:background="#FFD700"
+        android:text=" 1º Faça uma lista de compras                                " />
+
+
+    <Button
+        android:id="@+id/dica1id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:background="#63B8FF"
+        android:text=" 2º Fazer um intervalo muito longo entre as compras" />
+
+    <Button
+        android:id="@+id/dica2id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:background="#DB7093"
+        android:text=" 3º Nunca vá às compras com fome                    " />
+
+    <Button
+        android:id="@+id/dica3id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:background="#9ACD32"
+        android:text=" 4º Levar a(s) criança(s) ou não?                          " />
+
+    <Button
+        android:id="@+id/dica4id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:background="#FF4040"
+        android:text=" 5º Fazer a lista sem conferir a despensa       " />
+
+    <Button
+        android:id="@+id/dica5id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:background="#FFEC8B"
+        android:text=" 6º Comprar avulso ou por impulso                   " />
+
+    <Button
+        android:id="@+id/dica6id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02"
+        android:background="#E066FF"
+        android:text=" 7º Cuidado com os truques e 'armadilhas' de marketing                 " />
+
+    <Button
+        android:id="@+id/dica7id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_weight="0.03"
+        android:background="#A9A9A9"
+        android:text=" 8º Não caia no conto do 'chamariz'                   " />
+
+    <Button
+        android:id="@+id/dica8id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_weight="0.03"
+        android:background="#FF7F00"
+        android:text=" 9º Cheque a validade e aproveite ofertas    " />
+
+    <Button
+        android:id="@+id/dica9id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02"
+        android:background="#CD853F"
+        android:text="10º Organize a lista por seção do supermercado." />
+
+    <Button
+        android:id="@+id/dica10id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:background="#FFC1C1"
+        android:text=" 11º Cuidado com a 'compra casada'                     " />
+
+    <Button
+        android:id="@+id/voltarhomeid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:background="#8B008B"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text=" Voltar para home" />
+
+</LinearLayout>

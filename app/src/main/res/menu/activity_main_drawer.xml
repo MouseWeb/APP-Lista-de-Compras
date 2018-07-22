@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/icone2"
+            android:title="Alimentos" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/icone2"
+            android:title="Bebidas" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/icone2"
+            android:title="Carnes" />
+        <item
+            android:id="@+id/nav_frios"
+            android:icon="@drawable/icone2"
+            android:title="Frios" />
+        <item
+            android:id="@+id/nav_frutas"
+            android:icon="@drawable/icone2"
+            android:title="Frutas, Verduras e Legumes" />
+        <item
+            android:id="@+id/nav_higiene"
+            android:icon="@drawable/icone2"
+            android:title="Higiene" />
+        <item
+            android:id="@+id/nav_limpeza"
+            android:icon="@drawable/icone2"
+            android:title="Limpeza" />
+        <item
+            android:id="@+id/nav_padaria"
+            android:icon="@drawable/icone2"
+            android:title="Padaria" />
+        <item
+            android:id="@+id/nav_outros"
+            android:icon="@drawable/icone2"
+            android:title="Outros" />
+    </group>
+
+    <item android:title="Informativo">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/infor"
+                android:title="Sobre" />
+        </menu>
+    </item>
+
+</menu>

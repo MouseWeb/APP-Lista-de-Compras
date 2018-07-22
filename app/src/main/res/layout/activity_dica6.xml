@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="paixaoporti.com.br.listadecompras.dica6Activity"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="361dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:text="    Cuidado com os truques e 'armadilhas' de marketing "
+        android:textStyle="bold"
+        android:textSize="24dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView00"
+            android:layout_width="354dp"
+            android:layout_height="445dp"
+            android:layout_gravity="center"
+            android:text="  Tudo no supermercado é feito para você gastar mais: a música, a claridade, os corredores longos, a posição dos produtos etc.. Chocolates e doces costumam ser colocados ao alcance das crianças. Produtos essenciais costumam ficar no fundo para fazer o consumidor percorrer todos os setores."
+            android:textSize="22dp" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/voltar6id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:background="#66CDAA"
+        android:textColor="#ffffff"
+        android:text="Voltar"/>
+
+</LinearLayout>

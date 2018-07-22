@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="paixaoporti.com.br.listadecompras.dica8Activity"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="361dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:text="  Cheque a validade e aproveite ofertas "
+        android:textStyle="bold"
+        android:textSize="24dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView00"
+            android:layout_width="354dp"
+            android:layout_height="445dp"
+            android:layout_gravity="center"
+            android:text="  Em geral, produtos perto de vencer ficam na parte da frente das gôndolas e prateleiras. Se for levar quantidade maior ou demorar para consumir, opte por prazos de validade maiores. Alguns lugares dão desconto em produtos próximos ao vencimento; pode ser uma boa opção se você for consumir logo."
+            android:textSize="22dp" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/voltar8id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:background="#66CDAA"
+        android:textColor="#ffffff"
+        android:text="Voltar"/>
+
+</LinearLayout>

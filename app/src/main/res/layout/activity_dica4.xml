@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="paixaoporti.com.br.listadecompras.dica4Activity"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="361dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:text="  Fazer a lista sem conferir a despensa "
+        android:textStyle="bold"
+        android:textSize="24dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView00"
+            android:layout_width="354dp"
+            android:layout_height="445dp"
+            android:layout_gravity="center"
+            android:text="   Não saia de casa para fazer compras sem conferir como está sua despensa ou geladeira! Isso evita a compra de produtos que você já tem, permite a visualização do espaço disponível e faz com que você perceba eventuais produtos vencidos que precisam ser substituídos."
+            android:textSize="22dp" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/voltar4id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:background="#66CDAA"
+        android:textColor="#ffffff"
+        android:text="Voltar"/>
+
+</LinearLayout>

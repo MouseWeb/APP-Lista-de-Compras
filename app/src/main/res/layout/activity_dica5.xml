@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="paixaoporti.com.br.listadecompras.dica5Activity"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="361dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:text="  Comprar avulso ou por impulso "
+        android:textStyle="bold"
+        android:textSize="24dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView00"
+            android:layout_width="354dp"
+            android:layout_height="445dp"
+            android:layout_gravity="center"
+            android:text="  Comprar avulso “Um dos principais erros é comprar avulso ou por impulso sem ter um cronograma, pois isso aumenta as possibilidades de comprar produtos desnecessários”, evite ir ao mercado nos dias em que não se programou para isso as chances de acabar levando para casa produtos dos quais não precisa são maiores nessas ocasiões."
+            android:textSize="22dp" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/voltar5id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:background="#66CDAA"
+        android:textColor="#ffffff"
+        android:text="Voltar"/>
+
+</LinearLayout>
